@@ -1,0 +1,22 @@
+Package: DHSCverse
+Title: Easily Install and Load all DHSC packages
+Version: 1.0.0
+Authors@R: 
+    person("Matthew", "Katz", , "matthew.katz@dhsc.gov.uk", role = c("aut", "cre"))
+Description: A one stop shop to install and attach all current DHSC packages.
+  This is intended purely as a convenience package, for production code it is 
+  recommended that the individual DHSC packages used be attached.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    DHSCcolours (>= 0.1.0),
+    DHSClogger (>= 0.0.0.9000),
+    DHSCtools (>= 0.0.0.9000),
+    readfoundry (>= 0.0.0.9000)
+Remotes: 
+    DataS-DHSC/DHSCcolours,
+    DataS-DHSC/DHSClogger,
+    DataS-DHSC/DHSCtools,
+    DataS-DHSC/readFoundry
