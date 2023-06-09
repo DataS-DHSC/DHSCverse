@@ -20,3 +20,5 @@ Remotes:
     DataS-DHSC/DHSClogger,
     DataS-DHSC/DHSCtools,
     DataS-DHSC/readFoundry
+URL: https://github.com/DataS-DHSC/DHSCverse
+BugReports: https://github.com/DataS-DHSC/DHSCverse/issues
