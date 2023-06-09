@@ -5,7 +5,7 @@ Authors@R:
     person("Matthew", "Katz", , "matthew.katz@dhsc.gov.uk", role = c("aut", "cre"))
 Description: A one stop shop to install and attach all current DHSC packages.
   This is intended purely as a convenience package, for production code it is 
-  recommended that the individual DHSC packages used be attached.
+  recommended that the individual DHSC packages be used.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

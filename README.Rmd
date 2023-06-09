@@ -15,20 +15,29 @@ knitr::opts_chunk$set(
 
 The intent of DHSCverse is to create a convenience package for installing and attaching the various DHSC developed packages on GitHub.
 
-Currently it includes the following packages:
+This is intended purely as a convenience package for interactive analysis, for production code it is recommended that the individual DHSC packages be used.
+
+Currently, DHSCverse includes the following packages:
 
 -   [DHSCtools](https://github.com/DataS-DHSC/DHSCtools)
 -   [DHSClogger](https://github.com/DataS-DHSC/DHSClogger)
 -   [DHSCcolours](https://github.com/DataS-DHSC/DHSCcolours)
 -   [readfoundry](https://github.com/DataS-DHSC/readfoundry)
 
-## Installation
+### Installation
 
 To install DHSCverse run:
 
 ``` r
 if (!requireNamespace("librarian")) install.packages("librarian")
-librarian::stock(DataS-DHSC/DHSCtools)
+librarian::stock(DataS-DHSC/DHSCverse)
+```
+
+### Use
+
+To attach all the included packages simply call:
+``` r
+library(DHSCverse)
 ```
 
 ## Code of Conduct

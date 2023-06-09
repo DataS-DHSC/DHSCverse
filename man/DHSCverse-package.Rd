@@ -6,7 +6,7 @@
 \alias{DHSCverse-package}
 \title{DHSCverse: Easily Install and Load all DHSC packages}
 \description{
-A one stop shop to install and attach all current DHSC packages. This is intended purely as a convenience package, for production code it is recommended that the individual DHSC packages used be attached.
+A one stop shop to install and attach all current DHSC packages. This is intended purely as a convenience package, for production code it is recommended that the individual DHSC packages be used.
 }
 \details{
 Currently the DHSCverse installs and attaches the following packages:
@@ -16,6 +16,14 @@ Currently the DHSCverse installs and attaches the following packages:
 \item \href{https://github.com/DataS-DHSC/DHSCcolours}{DHSCcolours}
 \item \href{https://github.com/DataS-DHSC/readfoundry}{readfoundry}
 }
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/DataS-DHSC/DHSCverse}
+  \item Report bugs at \url{https://github.com/DataS-DHSC/DHSCverse/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Matthew Katz \email{matthew.katz@dhsc.gov.uk}
